@@ -1,5 +1,5 @@
 body {
-    background-image: url(Imagenes/Fondo.png);
+    background-image: url(../Imagenes/Fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -176,6 +176,79 @@ body {
 }
 
 .numero {
+    font-size: 1.3rem;
     padding-left: 10px !important;
     padding-right: 10px !important;
+}
+
+.tamañoPerso1 {
+    width: 20%;
+}
+
+.tamañoPerso2 {
+    width: 10rem;
+}
+
+.escudo {
+    position: relative;
+    align-items: center;
+}
+
+.recargar {
+    margin-top: 1rem;
+    color: red;
+    font-weight: bold;
+    background: none;
+    border: none;
+    transition: color 1s;
+}
+
+.recargar:hover {
+
+    color: black;
+
+}
+
+.fecha32avos {
+    display: none;
+}
+
+.fecha16avos {
+    display: none;
+}
+
+.fechaOctavos {
+    display: block;
+}
+
+.fechaCuartos {
+    display: none;
+}
+
+.fechaSemifinales {
+    display: none;
+}
+
+.fechaFinal {
+    display: none;
+}
+
+.fecha1 {
+    display: none;
+}
+
+.fecha2 {
+    display: none;
+}
+
+.fecha3 {
+    display: none;
+}
+
+.fecha4 {
+    display: none;
+}
+
+.fecha5 {
+    display: none;
 }
