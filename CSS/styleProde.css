@@ -203,52 +203,43 @@ body {
     transition: color 1s;
 }
 
-.recargar:hover {
-
-    color: black;
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-.fecha32avos {
-    display: none;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.fecha16avos {
-    display: none;
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.fechaOctavos {
-    display: block;
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-.fechaCuartos {
-    display: none;
+.link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
-.fechaSemifinales {
-    display: none;
-}
-
-.fechaFinal {
-    display: none;
-}
-
-.fecha1 {
-    display: none;
-}
-
-.fecha2 {
-    display: none;
-}
-
-.fecha3 {
-    display: none;
-}
-
-.fecha4 {
-    display: none;
-}
-
-.fecha5 {
-    display: none;
+.link:hover {
+    background-color: #0056b3;
 }
